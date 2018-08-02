@@ -1,0 +1,42 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0,
+
+    "html.autoClosingTags": false,
+
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.searchHighlightColor": "rgba(250, 0, 0, 0.5)",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>","d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before":["<C-n>"],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.disableExtension": false
+    // -> => <> <= >= != == === != >< --> ===> .. ... @
+}
