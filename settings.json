@@ -66,6 +66,8 @@
     "[elixir]": {
         "editor.defaultFormatter": "sammkj.vscode-elixir-formatter"
     },
-    "codestats.apikey": "SFMyNTY.YzJWeVlXWmxhVzA9IyNOakl6TlE9PQ.wdbkxRUvRClO4n4rziBVZdkfyxxa67Sh2puWvtMk1kY"
+    "codestats.apikey": "SFMyNTY.YzJWeVlXWmxhVzA9IyNOakl6TlE9PQ.wdbkxRUvRClO4n4rziBVZdkfyxxa67Sh2puWvtMk1kY",
+    "workbench.colorTheme": "Gruvbox Light (Medium)",
+    "vim.camelCaseMotion.enable": true
     // -> => <> <= >= != == === != >< --> ===> .. ... @
 }
