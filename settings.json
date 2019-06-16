@@ -18,7 +18,15 @@
         {
             "before": [
                 "j",
-                "j"
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<CapsLock>"
             ],
             "after": [
                 "<Esc>"
@@ -50,7 +58,7 @@
         "<C-a>": false,
         "<C-f>": false
     },
-    "vim.disableExtension": true,
+    "vim.disableExtension": false,
     "editor.fontSize": 16,
     "editor.renderWhitespace": "boundary",
     "files.trimTrailingWhitespace": true,
