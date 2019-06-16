@@ -1,12 +1,12 @@
 {
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "workbench.colorTheme": "Solarized Dark",
     "editor.fontFamily": "Source Code Pro",
     "editor.fontLigatures": true,
     "window.zoomLevel": 0,
-
+    "files.associations": {
+        "*.html.eex": "html"
+    },
     "html.autoClosingTags": false,
-
     "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
@@ -16,27 +16,48 @@
     "vim.searchHighlightColor": "rgba(250, 0, 0, 0.5)",
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j","j"],
-            "after": ["<Esc>"]
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": ["<leader>","d"],
-            "after": ["d", "d"]
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
         },
         {
-            "before":["<C-n>"],
+            "before": [
+                "<C-n>"
+            ],
             "commands": [
                 ":nohl"
             ]
         }
     ],
     "vim.leader": "<space>",
-    "vim.handleKeys":{
+    "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false
     },
-    "vim.disableExtension": false
+    "vim.disableExtension": true,
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "[elixir]": {
+        "editor.defaultFormatter": "sammkj.vscode-elixir-formatter"
+    },
+    "codestats.apikey": "SFMyNTY.YzJWeVlXWmxhVzA9IyNOakl6TlE9PQ.wdbkxRUvRClO4n4rziBVZdkfyxxa67Sh2puWvtMk1kY"
     // -> => <> <= >= != == === != >< --> ===> .. ... @
 }
